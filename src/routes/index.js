@@ -7,4 +7,5 @@ const router = express.Router();
 router.use('/students', routerStudent)
 router.use('/courses', routerCourse)
 
+
 module.exports = router;
